@@ -3,12 +3,13 @@
 #' @param druglist_meshid Drug combination of meshid
 #'
 #' @return data.frame
-#' @export enrichGO
-#' @export MeSH.Hsa.eg.db
-#' @export org.Hs.eg.db
+#' @export
+#'
+#' @importFrom clusterProfiler enrichGO
 #'
 
 #'
+#####test
 path <- function(druglist_meshid) {
   meshid2geneid <- select(
     MeSH.Hsa.eg.db,
