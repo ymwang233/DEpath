@@ -5,7 +5,7 @@
 #' @return data.frame
 #' @export enrichGO
 #' @export MeSH.Hsa.eg.db
-#' @export org.Hs.eg
+#' @export org.Hs.eg.db
 #'
 
 #'
