@@ -9,7 +9,6 @@
 #'
 
 #'
-#####test
 path <- function(druglist_meshid) {
   meshid2geneid <- select(
     MeSH.Hsa.eg.db,
