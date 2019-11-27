@@ -4,13 +4,12 @@
 #'
 #' @return data.frame
 #' @export
-#'
+#' @importFrom dplyr select
 #' @importFrom clusterProfiler enrichGO
 #'
 
-#'
 path <- function(druglist_meshid) {
-  meshid2geneid <- select(
+  meshid2geneid <- MeSHDb::select(
     MeSH.Hsa.eg.db,
     keys = druglist_meshid,
     keytype = "MESHID",

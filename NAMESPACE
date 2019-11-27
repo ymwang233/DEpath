@@ -2,3 +2,4 @@
 
 export(path)
 importFrom(clusterProfiler,enrichGO)
+importFrom(dplyr,select)
