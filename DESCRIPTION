@@ -10,7 +10,7 @@ Authors@R:
 Description: This package responds to disease pathways by enriching 
     pathways through drug combinations
 Depends: R (>= 3.5.1)
-Imports: MeSH.Hsa.eg.db,clusterProfiler,org.Hs.eg.db
+Imports: MeSH.Hsa.eg.db,clusterProfiler,org.Hs.eg.db,dplyr
 License: GPL
 Encoding: UTF-8
 LazyData: true
