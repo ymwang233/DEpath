@@ -11,7 +11,7 @@
 #'
 
 path <- function(druglist_meshid) {
-  meshid2geneid <- MeSHDb::select(
+  meshid2geneid <- dplyr::select(
     MeSH.Hsa.eg.db,
     keys = druglist_meshid,
     keytype = "MESHID",
