@@ -4,6 +4,8 @@
 #'
 #' @return data.frame
 #' @export
+#' @import MeSH.Hsa.eg.db
+#' @import org.Hs.eg.db
 #' @importFrom dplyr select
 #' @importFrom clusterProfiler enrichGO
 #'
