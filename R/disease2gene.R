@@ -7,6 +7,7 @@
 #'
 #'
 drug2gene <- function(drugList) {
+  require(MeSH.Hsa.eg.db)
   select(
     MeSH.Hsa.eg.db,
     keys = drugList,
