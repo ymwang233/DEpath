@@ -1,13 +1,15 @@
 #' Return the disease related genes
 #'
 #' @param drugList  List of interest drugs of MeSH id
-#'
+#' @import MeSH.Hsa.eg.db
+#' @import MeSHDbi
+#' @importFrom AnnotationDbi select
 #'
 #' @export
 #'
 #'
 drug2gene <- function(drugList) {
-  require(MeSH.Hsa.eg.db)
+
   select(
     MeSH.Hsa.eg.db,
     keys = drugList,

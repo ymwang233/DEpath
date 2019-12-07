@@ -4,9 +4,9 @@
 #'
 #' @return data.frame
 #'
-#' @import MeSH.Hsa.eg.db
+#'
 #' @importFrom clusterProfiler enrichGO
-#' @importFrom AnnotationDbi select
+#'
 #' @export
 
 
