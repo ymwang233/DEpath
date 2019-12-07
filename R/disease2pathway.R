@@ -9,6 +9,7 @@
 #' @importFrom AnnotationDbi select
 #' @export
 
+
 disease2path <- function(druglist_meshid) {
   genelist <- drug2gene(druglist_meshid)
 

@@ -11,6 +11,7 @@
 #'
 disease2drugDb <- function(DEpath) {
   ## connection
+
   db <- RSQLite::dbConnect(RSQLite::SQLite(),
                            paste0(
                              system.file("extdata", package = "DEpath"),
