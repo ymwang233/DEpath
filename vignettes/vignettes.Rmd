@@ -1,0 +1,32 @@
+---
+title: "DEpath"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{vignettes}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+
+```
+
+```{r setup}
+library(DEpath)
+```
+Here as an example, we use `disease2sig` function calculate the disease characteristics,use `disease2drug` calculate disease related drugs, use `drug2gene` function calculate the drug list related gene and use `disease2path` function calculate the disease related pathway by using the disease MeSHid `D002277` as input.
+
+```{r}
+
+disease2sig("D002277")
+disease2drug("D002277")
+drug2gene("D002277")
+disease2path("D002277")
+
+
+```
+
