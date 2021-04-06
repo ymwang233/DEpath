@@ -1,6 +1,6 @@
 Package: DEpath
 Title: Identification Pathways of Diseases Based on Drug Enrichment
-Version: 0.99.0
+Version: 0.1.0
 Authors@R: 
     person(given = "Yamin",
            family = "Wang",
